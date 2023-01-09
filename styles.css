@@ -27,6 +27,7 @@ a {
   right: -43px;
   font-family: "Montserrat Alternates", sans-serif;
 }
+
 .products-container {
   width: 217px;
   height: 95px;
@@ -82,15 +83,27 @@ img:hover {
   margin-bottom: 40px;
   font-family: "Montserrat Alternates", sans-serif;
 }
+.contacts:hover {
+  opacity: 0.3;
+  transition-duration: 2s;
+}
 .locations {
   padding: 160px;
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: "Montserrat Alternates", sans-serif;
 }
+.locations:hover {
+  opacity: 0.3;
+  transition-duration: 2s;
+}
 .ethics {
   padding: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
   font-family: "Montserrat Alternates", sans-serif;
+}
+.ethics:hover {
+  opacity: 0.3;
+  transition-duration: 2s;
 }
