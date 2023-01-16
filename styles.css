@@ -124,7 +124,7 @@ a:hover::before {
 .author-container {
   height: 30px;
   width: 220px;
-  background: #c23a54;
+  background-image: linear-gradient(to bottom right, #d4855a, #ddad66);
   display: flex;
   justify-content: center;
   margin: auto;
