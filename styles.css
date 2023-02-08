@@ -11,7 +11,7 @@ a {
   color: white;
 }
 .story-container {
-  width: 170px;
+  width: 200px;
   height: 90px;
   background: #d4855a;
   transition: width 2s;
@@ -24,7 +24,7 @@ a {
   font-size: 35px;
 }
 .story-container:hover {
-  width: 200px;
+  width: 220px;
 }
 .story {
   display: flex;
@@ -59,7 +59,7 @@ a {
 }
 
 .products-container:hover {
-  width: 270px;
+  width: 280px;
 }
 
 .grid-images {
@@ -150,12 +150,4 @@ p {
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
   font-size: larger;
-}
-.icon-make-up {
-  width: 300px;
-  color: white;
-  position: absolute;
-  left: 900px;
-  bottom: -60px;
-  translate: 20px 10px;
 }
