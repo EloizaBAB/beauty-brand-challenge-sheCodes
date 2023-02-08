@@ -13,7 +13,7 @@ a {
 .story-container {
   width: 170px;
   height: 90px;
-  background: #80bb9a;
+  background: #d4855a;
   transition: width 2s;
   position: relative;
   right: -970px;
@@ -38,7 +38,7 @@ a {
 .products-container {
   width: 260px;
   height: 95px;
-  background: #83cfa4;
+  background: #d4855a;
   transition: width 2s;
   position: relative;
   right: -95px;
@@ -107,7 +107,7 @@ a:after {
   position: absolute;
   height: 1px;
   width: 0;
-  background: white;
+  background: #d4855a;
   transition: 3s;
 }
 a:after {
@@ -131,24 +131,31 @@ a:hover::before {
   font-size: small;
 }
 .author-container {
-  height: 20px;
-  width: 220px;
-  background-image: linear-gradient(to bottom right, #d4855a, #e1d071);
   display: flex;
   justify-content: center;
   margin: auto;
   position: relative;
   bottom: -50px;
-  border-radius: 50px;
-  padding: 20px 20px 20px 20px;
+
   margin-bottom: 90px;
 }
 hr {
   width: 90%;
+  height: 1px;
+  background-color: #d4855a;
+  border: none;
 }
 p {
   color: white;
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
   font-size: larger;
+}
+.icon-make-up {
+  width: 300px;
+  color: white;
+  position: absolute;
+  left: 900px;
+  bottom: -60px;
+  translate: 20px 10px;
 }
